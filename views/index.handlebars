@@ -1,35 +1,38 @@
-<h1>Burgers App</h1>
+<h1>Burgers App!</h1>
 
-<p>Manage burgers with this app</p>
+<h2>Burgers!</h2>
 
-<!-- Pass in data from server.js -->
 <ul>
   {{#each burgers}}
-  	<li>
-  		<p><span class="label">ID:</span> {{this.id}}</p>
-      <p><span class="label">Quote:</span> {{this.quote}}</p>
-      <p><span class="label">Author:</span> {{this.author}}</p>
+    {{#unless sleepy}}
+      {{> burgers/burger-block sleep=true}}
+    {{/unless}}
+  {{/each}}
+</ul>
 
-      <button data-id="{{this.id}}" class="delquote">Delete</button>
+<h2>Devoured Burgers!</h2>
 
-      <a href="/{{this.id}}">Update this burger</a>
-  	</li>
+<ul>
+  {{#each burgers}}
+    {{#if sleepy}}
+      {{> burgers/burger-block sleep=false}}
+    {{/if}}
   {{/each}}
 </ul>
 
 <h2>Add a Burger</h2>
-
 <form class="create-form">
 
   <div class="form-group">
-    <label for="auth">Author:</label>
-    <input type="text" id="auth" name="author">
+    <label for="ca">Burger Name:</label>
+    <input type="text" id="ca" name="name">
   </div>
 
   <div class="form-group">
-    <label for="quo">Quote:</label>
-    <textarea id="quo" name="quote" rows="8" cols="40"></textarea>
+    <label for="slee">Sleepy?</label><br>
+    <input type="radio" name="sleepy" value="1" checked> Sleepy!<br>
+    <input type="radio" name="sleepy" value="0"> Awake
   </div>
 
-  <button type="submit">Add Quote</button>
+  <button type="submit">Add Burger</button>
 </form>
