@@ -11,7 +11,7 @@ A burger logger app for homework 13. User submits a burger name which gets displ
 As a user, I want to view my list of available burgers and easily see which ones I have devoured. I am able to add as many burgers as I want and replenish the ones I have eaten.
 
 ## Example:
-<img src=>
+<img src=public\assets\example.png>
 
 ## Github and Heroku:
 https://github.com/Gustaf-987/Burger-App
