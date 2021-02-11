@@ -1,26 +1,26 @@
 {
-  "name": "burger-app",
-  "version": "1.0.0",
-  "description": "A burger logger app for homework 13. User submits a burger name which gets displayed and then is able to be \"devoured\". Designed to practice the following technologies:",
-  "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0",
-    "mysql": "^2.18.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Gustaf-987/Burger-App.git"
-  },
-  "author": "Gustaf",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Gustaf-987/Burger-App/issues"
-  },
-  "homepage": "https://github.com/Gustaf-987/Burger-App#readme"
+    "name": "burger-app",
+    "version": "1.0.0",
+    "description": "A burger logger app for homework 13. User submits a burger name which gets displayed and then is able to be \"devoured\". Designed to practice the following technologies:",
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mysql": "^2.18.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Gustaf-987/Burger-App.git"
+    },
+    "author": "Gustaf",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Gustaf-987/Burger-App/issues"
+    },
+    "homepage": "https://github.com/Gustaf-987/Burger-App#readme"
 }
