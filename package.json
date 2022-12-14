@@ -4,7 +4,7 @@
     "description": "A burger logger app for homework 13. User submits a burger name which gets displayed and then is able to be \"devoured\". Designed to practice the following technologies:",
     "main": "server.js",
     "dependencies": {
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "express-handlebars": "^5.2.0",
         "mysql": "^2.18.1"
     },
